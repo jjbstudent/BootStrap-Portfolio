@@ -1,0 +1,29 @@
+.navbar{
+    background-color: rgb(228, 230, 132);
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: right;
+}
+
+.navbar a{
+    color: blueviolet;
+    font-size: 25px;
+}
+
+/* Apply styles to the navigation links */
+.navbar-nav .nav-item a {
+    transition: color 0.3s ease; /* Smooth transition for color changes */
+  }
+  
+  /* Change text color on hover */
+  .navbar-nav .nav-item a:hover {
+    color: #007bff; /* Text color when hovering over the link */
+  }
+  
+  /* Change background color on hover for active link */
+  .navbar-nav .nav-item a.active:hover {
+    background-color: #007bff; /* Background color when hovering over the active link */
+    border-radius: 15%;
+    color: #fff; /* Text color for the active link on hover */
+  }
