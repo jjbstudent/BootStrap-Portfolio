@@ -51,7 +51,7 @@
   font-family: monospace;
 }
 
-.content-wrapper { 
+.content-wrapper { /*content wrapper for the hero section*/
   display: flex;
   align-items: center;
   justify-content: space-between;
