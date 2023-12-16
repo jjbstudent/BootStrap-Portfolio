@@ -27,3 +27,36 @@
     border-radius: 15%;
     color: #fff; /* Text color for the active link on hover */
   }
+
+/*Jumbotron styling */
+.jumbotron {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%; /* Adjust the max-width as needed */
+  margin: 0 auto;
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-wrapper { 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-picture {
+  max-width: 200px; /* Profile pic sizing */
+  border-radius: 50%; 
+}
+.display-4{
+  margin-left: 0px;
+}
+
+/* Additional styling for the text content */
+.text-content {
+  flex-grow: 1;
+  margin-left: 20px; /* Adjust the margin as needed */
+}
