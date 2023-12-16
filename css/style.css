@@ -1,5 +1,5 @@
 .navbar{
-    background-color: rgb(228, 230, 132);
+    background-color: rgb(152, 230, 132);
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -60,7 +60,7 @@
   flex-grow: 1;
   margin-left: 20px; /* Adjust the margin as needed */
 }
-
+/*styling for project headers*/
 .projects-head{
   text-align: center;
 }
@@ -69,4 +69,10 @@
 .cardContainer {
   margin-top: 20px;
   text-align: center;
+}
+
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
 }
