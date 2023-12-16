@@ -1,6 +1,8 @@
-/* Navigation bar */
+:root {
+  --monospace-font: monospace;
+}
 
-/* General */
+/* Navigation bar */
 .customNav {
   position: fixed;
   width: 100%;
@@ -13,8 +15,15 @@
   margin-left: auto;
   margin-right: 0 !important;
 }
+
+/* Navigation links hover effect */
+.navbar-nav a:hover {
+  color: #00fc22 !important;
+  text-decoration: none; /* Optional: Remove underline on hover */
+}
+
 .navbar-brand img {
-  padding-right: 15px;
+  padding: 0 15px; /* Keep consistent padding values for both sides */
   width: 65px;
 }
 .nav-item {
@@ -24,6 +33,7 @@
 /* Navigation links */
 .customNav a {
   color: white !important;
+  font-size: 20px;
 }
 
 /*Jumbotron styling */
@@ -37,8 +47,8 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  height: 480px;
-
+  height: 500px;
+  font-family: monospace;
 }
 
 .content-wrapper { 
@@ -58,26 +68,27 @@
 /* Additional styling for the text content */
 .text-content {
   flex-grow: 1;
-  margin-left: 20px; /* Adjust the margin as needed */
+  margin: 0 0 0 55px; /* Adjust the margin as needed */
 }
 /*styling for project headers*/
 .projects-head{
   text-align: center;
-  margin: 0 0 0 10px;
+  margin: 20px 0 20px 0px;
+  font-family: var(--monospace-font);
 }
 
 /*styling for projects card container*/
 .cardContainer {
   margin-top: 20px;
   text-align: center;
-  font-family: ;
 }
+
 /*card styling*/
 .card{
   background-clip: border-box;
   border: 7px solid rgba(0,0,0,.125);
   border-radius: 0.25rem;
-  font-family: monospace;
+  font-family: var(--monospace-font);
   height: 100%;
 }
 /*contains the description and project heading*/
