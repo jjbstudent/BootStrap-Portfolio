@@ -1,32 +1,30 @@
-.navbar{
-    background-color: rgb(152, 230, 132);
+/* Navigation bar */
+
+/* General */
+.customNav {
+  position: fixed;
+  width: 100%;
+  background: url("../images/transparency.png");
+  background-color: transparent !important;
+  background-size: cover;
+  z-index: 10;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+.navbar-brand img {
+  padding-right: 15px;
+  width: 65px;
+}
+.nav-item {
+  margin: 0px 15px;
 }
 
-.navbar-expand-lg .navbar-collapse {
-    justify-content: right;
+/* Navigation links */
+.customNav a {
+  color: white !important;
 }
-
-.navbar a{
-    color: blueviolet;
-    font-size: 25px;
-}
-
-/* Apply styles to the navigation links */
-.navbar-nav .nav-item a {
-    transition: color 0.3s ease; /* Smooth transition for color changes */
-  }
-  
-  /* Change text color on hover */
-  .navbar-nav .nav-item a:hover {
-    color: #007bff; /* Text color when hovering over the link */
-  }
-  
-  /* Change background color on hover for active link */
-  .navbar-nav .nav-item a.active:hover {
-    background-color: #007bff; /* Background color when hovering over the active link */
-    border-radius: 15%;
-    color: #fff; /* Text color for the active link on hover */
-  }
 
 /*Jumbotron styling */
 .jumbotron {
@@ -39,6 +37,8 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 480px;
+
 }
 
 .content-wrapper { 
@@ -63,14 +63,29 @@
 /*styling for project headers*/
 .projects-head{
   text-align: center;
+  margin: 0 0 0 10px;
 }
 
 /*styling for projects card container*/
 .cardContainer {
   margin-top: 20px;
   text-align: center;
+  font-family: ;
 }
-
+/*card styling*/
+.card{
+  background-clip: border-box;
+  border: 7px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+  font-family: monospace;
+  height: 100%;
+}
+/*contains the description and project heading*/
+.card body{
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+}
+/*card image styling*/
 .card-img-top {
   width: 100%;
   border-top-left-radius: calc(0.25rem - 1px);
