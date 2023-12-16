@@ -60,3 +60,13 @@
   flex-grow: 1;
   margin-left: 20px; /* Adjust the margin as needed */
 }
+
+.projects-head{
+  text-align: center;
+}
+
+/*styling for projects card container*/
+.cardContainer {
+  margin-top: 20px;
+  text-align: center;
+}
