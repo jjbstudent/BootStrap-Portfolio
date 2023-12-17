@@ -70,6 +70,27 @@
   margin-left: 0px;
 }
 
+/* Styling for all btn-primary buttons */
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.25rem; /* Adjust the font size as needed */
+  border: 1px solid #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect for all btn-primary buttons */
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-decoration: none; /* Remove underline on hover */
+}
+
 /* Additional styling for the text content */
 .text-content {
   flex-grow: 1;
@@ -160,6 +181,8 @@ footer {
 .footer-nav {
   list-style: none;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-item {
@@ -167,7 +190,7 @@ footer {
   margin: 0 10px;
 }
  
-.btn { /*button styling*/
+.btn-footer { /*button styling*/
   display: inline-block; 
   padding: 10px 20px;
   color: #fff;
@@ -177,12 +200,15 @@ footer {
   border-radius: 5px;
   transition: background-color 0.3s ease, color 0.3s ease; /*color transition neffect*/
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* White box shadow effect */
+  font-family: var(--monospace-font);
 }
 
-.btn:hover { 
+.btn-footer:hover { 
   background-color: #0056b3;
+  color: white;
   border-color: #0056b3;
   box-shadow: 0 8px 16px rgba(255, 255, 255, 0.4); /* Darker white box shadow on hover */
+  text-decoration: none; /*remove underline*/
 }
 
 .copyright {
