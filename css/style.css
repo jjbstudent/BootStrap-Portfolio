@@ -71,7 +71,7 @@
   margin: 0 0 0 55px; /* Adjust the margin as needed */
 }
 /*styling for project headers*/
-.projects-head{
+.projects-head, h2{
   text-align: center;
   margin: 20px 0 20px 0px;
   font-family: var(--monospace-font);
@@ -101,4 +101,21 @@
   width: 100%;
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.skills{
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%; /* Adjust the max-width as needed */
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: #c0ffc0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 600px;
+  font-family: monospace;
+}
+.skills img{
+  max-width: 200px;
 }
