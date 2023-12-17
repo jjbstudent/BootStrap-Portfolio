@@ -24,10 +24,14 @@ In this project, I created a portfolio layout using the Bootstrap CSS Framework,
 
 ## Installation
 
-1. Clone the repository to your local machine.
+#Options
+
+1. Download repository file in a zip file and open in VS Code
+  
+2. Clone the repository to your local machine.
    ```bash
    git clone https://github.com/jjbstudent/BootStrap-Portfolio.git
-   ```bash
+
 ## Contributing
 
 ## Usage
