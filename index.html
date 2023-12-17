@@ -27,16 +27,16 @@
         <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Hero</a>
+        <a class="nav-link" href="#hero">Hero</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Work</a>
+        <a class="nav-link" href="#work">Work</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Skills</a>
+        <a class="nav-link" href="#skills">Skills</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="#contact">Contact</a>
       </li>
     </ul>
   </div>
@@ -44,7 +44,7 @@
 <!-- End navigation bar -->
   
 <!--Hero Section include name /picture / description-->
-<div class="jumbotron">
+<div class="jumbotron" id="hero">
   <div class="content-wrapper">
     <img src="./images/Avatar.png" alt="Jermaine Avatar" class="profile-picture">
     <div class="text-content">
@@ -54,7 +54,7 @@
       <p>Welcome to my digital showcase of student projects! Here, you'll find a curated collection of my work as a dedicated web development enthusiast. From responsive designs to interactive web applications, each project reflects my commitment to mastering the craft. Dive into the portfolio to witness the evolution of my skills and creativity. Whether you're curious about the technologies used or seeking inspiration, this portfolio is a testament to my journey as a budding web developer. Join me as I navigate the world of coding, one project at a time.
       </p>
       <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">About Me</a>
+        <a class="btn btn-primary btn-lg" href="#contact" role="button">About Me</a>
       </p>
     </div>
   </div>
@@ -62,7 +62,7 @@
 
 <!--Card section-->
 <!-- Card containers for Web refactoring project-->
-<section class="container-fluid">
+<section class="container-fluid" id="work">
   <h2 class="projects-head">Boot Camp Projects</h2> <!-- heading for my card grid-->
   <div class="row">
     <div class="cardContainer col-lg-4 col-md-4 col-sm-12"> <!-- Spans the card 4/4/4 max 12 across screen grid-->
@@ -100,7 +100,7 @@
 </section>
   
 <!-- skills section-->
-    <div class="skills">
+    <div class="skills" id="skills">
       <div class="content-wrapper"></div>
         <div class="text-content">
           <h2>Front-End Developer Skills</h2> <!--Skills header for skills list-->
@@ -131,7 +131,7 @@
     </div>
 <!--about me / contact me-->
 
-    <section class="about-contact-container">
+    <section class="about-contact-container" id="contact">
       <!-- About Me Section -->
 
         <div class="about-me">
@@ -149,13 +149,30 @@
               <li>GitHub: <a href="https://github.com/your-username" target="_blank">Your GitHub Profile</a></li>
           </ul>
         </div>
-      
     </section>
   
-
-
-<footer>
-</footer>
-
-</body>
-</html>
+<!--footer section-->
+    <footer>
+      <div class="footer-container">
+        <section class="social-media-links"><!--containter for my social media link buttons-->
+          <h2>Social Media Links</h2>
+          <ul class="footer-nav">
+            <li class="nav-item">
+              <a class="btn btn-primary" href="#github" role="button">GitHub</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-primary" href="#facebook" role="button">Facebook</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-primary" href="#twitter" role="button">Twitter</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-primary" href="#instagram" role="button">Instagram</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <p class="copyright">© 2023 Your Website. All rights reserved.</p>
+    </footer>
+    </body>
+    </html>

@@ -118,9 +118,74 @@
 .skills img{
   max-width: 200px;
 }
-
+/*about me section*/
 .about-contact-container{
+  display: flex;
   height: 200px;
   margin-top: 30px;
   background-color: rgb(255, 255, 182);
+}
+
+.about-me{
+  flex: 2;
+  margin-right: 110px;
+}
+
+.contact-me {
+  flex: 1;
+  margin-right: 0px;
+  
+}
+
+.contact-me h2{
+  text-align: left;
+}
+
+/*footer section styling*/
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-media-links {
+  text-align: center; /*align all social media links */
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+ 
+.btn { /*button styling*/
+  display: inline-block; 
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  text-decoration: none; /*remove underline*/
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease; /*color transition neffect*/
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* White box shadow effect */
+}
+
+.btn:hover { 
+  background-color: #0056b3;
+  border-color: #0056b3;
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.4); /* Darker white box shadow on hover */
+}
+
+.copyright {
+  margin-top: 20px;
+  text-align: center;
 }
