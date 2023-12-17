@@ -37,18 +37,23 @@
 }
 
 /*Jumbotron styling */
-.jumbotron {
+.jumbotron,
+.skills,
+.about-contact-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   max-width: 100%; /* Adjust the max-width as needed */
   margin: 0 auto;
-  background-color: lightblue;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: var(--monospace-font);
+}
+
+.jumbotron{
+  background-color: lightblue;
   height: 500px;
-  font-family: monospace;
 }
 
 .content-wrapper { /*content wrapper for the hero section*/
@@ -104,18 +109,18 @@
 }
 
 .skills{
-  align-items: center;
-  justify-content: space-between;
-  max-width: 100%; /* Adjust the max-width as needed */
-  margin: 0 auto;
   margin-top: 30px;
   background-color: #c0ffc0;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   height: 600px;
   font-family: monospace;
 }
+
 .skills img{
   max-width: 200px;
+}
+
+.about-contact-container{
+  height: 200px;
+  margin-top: 30px;
+  background-color: rgb(255, 255, 182);
 }
