@@ -24,7 +24,7 @@ In this project, I created a portfolio layout using the Bootstrap CSS Framework,
 
 ## Installation
 
-#Options
+Options
 
 1. Download repository file in a zip file and open in VS Code
   
