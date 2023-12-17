@@ -34,10 +34,30 @@ Options
 
 ## Contributing
 
+Helpful resources used for this project
+
+- [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+
+- [Responsive Web Design - How to Create Media Queries](https://www.youtube.com/watch?v=5xzaGSYd7jM)
+
+- [Media Queries 101 by CSS Tricks](https://css-tricks.com/css-media-queries/)
+
+- [Media Query Documentation](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+
+- [Github Pages Guide](https://pages.github.com/)
+
+
 ## Usage
+Student profile which contains all projects upto date.
+The card section contains all the projects displaying an a grid struture format
 
 ## License
+MIT licence
 
 ## Credits
+TA support
+Online Tutors
+Slack huddle - Francis
 
 ## Contact
+jblearn2023@gmail.com
