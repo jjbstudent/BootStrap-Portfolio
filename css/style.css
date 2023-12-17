@@ -13,7 +13,7 @@
 }
 .navbar-nav {
   margin-left: auto;
-  margin-right: 0 !important;
+  margin-right: 0;
 }
 
 /* Navigation links hover effect */
@@ -49,11 +49,12 @@
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   font-family: var(--monospace-font);
+  height: auto;
 }
 
 .jumbotron{
   background-color: lightblue;
-  height: 500px;
+ 
 }
 
 .content-wrapper { /*content wrapper for the hero section*/
@@ -79,6 +80,7 @@
   border: 1px solid #007bff;
   text-decoration: none;
   border-radius: 5px;
+  height: auto;
   transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -95,6 +97,8 @@
 .text-content {
   flex-grow: 1;
   margin: 0 0 0 55px; /* Adjust the margin as needed */
+  max-width: 100%;
+  overflow-x: auto;
 }
 /*styling for project headers*/
 .projects-head, h2{
@@ -106,6 +110,7 @@
 /*styling for projects card container*/
 .cardContainer {
   margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -132,8 +137,9 @@
 .skills{
   margin-top: 30px;
   background-color: #c0ffc0;
-  height: 600px;
   font-family: monospace;
+  padding: 20px;
+  max-width: auto;
 }
 
 .skills img{
@@ -142,7 +148,6 @@
 /*about me section*/
 .about-contact-container{
   display: flex;
-  height: 200px;
   margin-top: 30px;
   background-color: rgb(255, 255, 182);
 }
@@ -214,4 +219,34 @@ footer {
 .copyright {
   margin-top: 20px;
   text-align: center;
+}
+
+/* Media queries for specific screen sizes */
+
+/* Adjust styles for small devices */
+@media (max-width: 576px) {
+  .text-content {
+    font-size: 14px;
+    margin: 0 0 0 20px; /* Adjusted margin for small screens */
+  }
+}
+
+/* Adjust styles for medium devices */
+@media (min-width: 577px) and (max-width: 992px) {
+  .text-content {
+    font-size: 16px;
+  }
+}
+
+/* Adjust styles for large devices */
+@media (min-width: 993px) {
+  .text-content {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .jumbotron {
+    height: 600px; /* Adjust the height for large screens */
+  }
 }
