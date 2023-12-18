@@ -55,9 +55,9 @@ The card section contains all the projects displaying an a grid struture format
 MIT licence
 
 ## Credits
-TA support
-Online Tutors
-Slack huddle - Francis
+1. TA support
+2. Online Tutors
+3. Slack huddle - Francis
 
 ## Contact
 jblearn2023@gmail.com
