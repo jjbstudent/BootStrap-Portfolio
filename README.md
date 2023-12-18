@@ -52,7 +52,7 @@ Student profile which contains all projects upto date.
 The card section contains all the projects displaying an a grid struture format
 
 Preview of website
-![Website screenshot](images/screenshot.jpg)  
+![Website screenshot](images/Screenshot.jpg)
 
 ## License
 MIT licence
