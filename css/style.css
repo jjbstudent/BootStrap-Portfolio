@@ -20,6 +20,7 @@
 .navbar-nav a:hover {
   color: #00fc22 !important;
   text-decoration: none; /* Optional: Remove underline on hover */
+  
 }
 
 .navbar-brand img {
@@ -36,7 +37,7 @@
   font-size: 20px;
 }
 
-/*Jumbotron styling */
+/*sections styling */
 .jumbotron,
 .skills,
 .about-contact-container {
