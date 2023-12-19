@@ -63,4 +63,6 @@ MIT licence
 3. Slack huddle sessions with - Francis Gomes-OkOye
 
 ## Contact
-jblearn2023@gmail.com
+email address: jblearn2023@gmail.com
+link to this webpage: https://jjbstudent.github.io/BootStrap-Portfolio/
+
