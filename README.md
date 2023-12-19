@@ -60,7 +60,7 @@ MIT licence
 ## Credits
 1. TA support
 2. Online Tutors
-3. Slack huddle - Francis
+3. Slack huddle sessions with - Francis Gomes-OkOye
 
 ## Contact
 jblearn2023@gmail.com
