@@ -148,24 +148,15 @@
 }
 /*about me section*/
 .about-contact-container{
-  display: flex;
+/*  display: flex;*/
   margin-top: 30px;
   background-color: rgb(255, 255, 182);
 }
 
-.about-me{
-  flex: 2;
-  margin-right: 110px;
-}
+.about-me, li{
+  text-align: center;
 
-.contact-me {
-  flex: 1;
-  margin-right: 0px;
-  
-}
-
-.contact-me h2{
-  text-align: left;
+  list-style: none;
 }
 
 /*footer section styling*/
