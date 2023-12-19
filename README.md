@@ -51,13 +51,16 @@ Helpful resources used for this project
 Student profile which contains all projects upto date.
 The card section contains all the projects displaying an a grid struture format
 
+Preview of website
+![Website screenshot](images/Screenshot.jpg)
+
 ## License
 MIT licence
 
 ## Credits
-TA support
-Online Tutors
-Slack huddle - Francis
+1. TA support
+2. Online Tutors
+3. Slack huddle - Francis
 
 ## Contact
 jblearn2023@gmail.com
